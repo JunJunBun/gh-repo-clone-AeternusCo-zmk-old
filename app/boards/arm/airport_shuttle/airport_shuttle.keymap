@@ -11,12 +11,12 @@
 // |  ESC  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   | BSPC   |
 // |  TAB  |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  RET   |
 // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   UP  |  ---   |
-// | LCTRL | LGUI | LCTRL | ---  | ---- |     SPACE    |  ---- | ---- | LFT | DN  |  RT |
+// | LCTRL | LGUI | LALT | ---  | ---- |     SPACE    |  ---- | ---- | FN | LFT  |  RT |
       bindings = <
-  &kp ESC      &kp Q    &kp W &kp E &kp R &kp T  &kp Y   &kp U  &kp I    &kp O   &kp P    &kp BKSP
+  &kp ESC      &kp Q    &kp W &kp E &kp R &kp T  &kp Y   &kp U  &kp I    &kp O   &kp P    &kp BKSP 
   &lt RAISE TAB  &kp A  &kp S &kp D &kp F &kp G  &kp H   &kp J  &kp K    &kp L   &kp SCLN &kp RET
-  &kp LSHFT     &kp Z    &kp X &kp C &kp V &kp B  &kp N   &kp M  &kp CMMA &kp DOT &kp SLASH &mo 2
-  &kp LCTRL     &kp LALT &mo 1 &trans &trans &kp SPC &trans &kp RGUI &kp RALT &kp RCTRL
+  &kp LSHFT     &kp Z    &kp X &kp C &kp V &kp B  &kp N   &kp M  &kp CMMA &kp DOT &kp SLASH & PG_DN
+  &kp LCTRL     &kp LALT &mo 1 &trans &trans &kp SPC &trans &kp &trans &kp mo 1 &kp LEFT &kp RIGHT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
