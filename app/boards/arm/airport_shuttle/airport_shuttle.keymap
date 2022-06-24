@@ -23,11 +23,6 @@
 
 
     raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  trn  |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |   0   |  trn   |
-// |  trn  |  LFT   |  DN   |  UP   |  RIT   |  -   |   =   |  [    |  ]   |  '   |   trn  |  trn   |
-// |  trn  |  BT CLR   |  BT 0   |  trn   |  trn   |  trn   |   trn   |  \    |  trn  |  trn  |   /   |  trn   |
-// |  trn  |  trn | trns | ---  | ---- |     trns     |  ---- | ---- | RGUI | RALT  |  RCTRL |
       bindings = <
       &kp GRAVE &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
       &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp SQT &trans &trans
