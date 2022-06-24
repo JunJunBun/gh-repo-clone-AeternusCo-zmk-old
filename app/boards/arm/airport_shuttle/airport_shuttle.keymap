@@ -51,7 +51,7 @@
   &kp ESC       &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_7  &kp I    &kp O   &kp P    &kp BKSP 
   &kp TAB       &kp Q  &kp W &kp E &kp R &kp T  &kp Y   &kp J  &kp K    &kp L   &kp SCLN &kp RET
   &kp LSHFT     &kp A    &kp S &kp D &kp F &kp G  &kp H   &kp N  &kp M &kp DOT &kp SLASH & PG_DN
-  &kp LCTRL     &kp X &mt LALT C &trans &trans &lt LOWER SPACE &trans &kp &trans &to 3 &kp LEFT &kp RIGHT
+  &kp LCTRL     &kp X &mt LALT C &trans &trans &lt LOWER SPACE &trans &trans &to 3 &kp LEFT &kp RIGHT
       >;
     };
   };
