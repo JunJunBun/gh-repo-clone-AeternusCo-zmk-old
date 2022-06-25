@@ -24,18 +24,6 @@
       >;
     };
 
-
-    
-    raise_layer {
-      bindings = <
-      &kp GRAVE &trans &trans &trans &trans &trans &trans &trans &kp UP &trans &trans &kp DEL
-      &kp CAPS &bt BT_PRV &bt BT_CLR &bt BT_NXT &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT &kp MINUS &kp APOS
-      &trans &trans &trans &trans &trans &trans &trans &trans &kp LBRKT &kp RBKT &kp BLSH &trans
-      &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-      >;
-    };
-    
-
       >;
     };
   };
